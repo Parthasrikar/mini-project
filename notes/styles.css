@@ -213,6 +213,9 @@ footer {
                     font-weight: 600;
                     color: #333;
                 }
+                p {
+                    text-decoration: underline;
+                }
                 a {
                     text-decoration: none;
                     color: #000;
