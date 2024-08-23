@@ -455,6 +455,314 @@ footer {
 .fade-in {
     animation: fadeIn 0.5s ease-in;
 }
+<<<<<<< HEAD
 
 
     
+=======
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #007bff, #00c6ff);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+}
+
+.hero-buttons a {
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Coding Practice Environment */
+.coding-environment {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.coding-ide {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Coding Practice Environment (continued) */
+.coding-ide textarea {
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+
+.ide-buttons {
+    margin-top: 10px;
+}
+
+.ide-buttons button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Skill Development Resources */
+.resources {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.resource-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Collaboration with Student Chapters */
+.collaboration {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.club-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.club-card {
+    text-align: center;
+    padding: 20px;
+    width: 22%;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.club-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.club-card h3 {
+    margin-bottom: 10px;
+}
+
+.club-card p {
+    margin-bottom: 15px;
+}
+
+.club-card a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.announcement-banner {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Skill Progress Tracking */
+.progress-tracking {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bars {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    width: 48%;
+}
+
+.progress-bar h3 {
+    margin-bottom: 10px;
+}
+
+.bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+
+.fill {
+    background-color: #007bff;
+    height: 100%;
+}
+
+.feedback, .badges {
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.feedback h3, .badges h3 {
+    margin-bottom: 10px;
+}
+
+/* GitHub Contributions */
+.github-contributions {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project-card {
+    width: 32%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    margin-bottom: 10px;
+}
+
+.recent-contributions {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .resource-cards, .club-cards, .progress-bars, .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card, .club-card, .progress-bar, .project-card {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .hero-buttons a {
+        padding: 10px 15px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+
+    .hero p {
+        font-size: 0.9em;
+    }
+
+    .coding-ide textarea {
+        height: 150px;
+    }
+
+    .coding-environment, .resources, .collaboration, .progress-tracking, .github-contributions {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .club-card, .card, .progress-bar, .project-card {
+        padding: 15px;
+    }
+
+    .hero-buttons a {
+        padding: 8px 10px;
+        margin: 5px;
+    }
+
+    .announcement-banner {
+        padding: 10px;
+    }
+}
+>>>>>>> b2dba2e6f18d8f2fffe22702f4b853f4966651e4
