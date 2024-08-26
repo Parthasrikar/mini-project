@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to LMS</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDnzO2BHqLgSRADDUS0c1KugIg_eoHRBBoWA&s">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="lms-logo.png" alt="LMS Logo" class="logo-img">
-                <span class="logo-text">EduLMS</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDnzO2BHqLgSRADDUS0c1KugIg_eoHRBBoWA&s" alt="LMS Logo" class="logo-img">
+                <span class="logo-text">VIGNAN-LMS</span>
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -31,8 +32,13 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 EduLMS Portal. All rights reserved.</p>
+        <p>&copy; 2024 VIGNANLMS Portal. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById('invert-logo').addEventListener('click', function() {
+            document.body.classList.toggle('inverted');
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
